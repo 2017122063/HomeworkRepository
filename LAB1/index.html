@@ -1,29 +1,36 @@
 <!DOCTYPE html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>LAB1</title>
+    <style>
+        table {
+            width: 300px;
+            border: 1px solid;
+        }
+        th, td {
+            border: 1px solid;
+        }
+    </style>
 </head>
 <body>
     <h1>자기소개</h1>
     <p><strong>안녕하세요, 저는 연세대학교 응용통계학과 4학년 정재은 학생입니다. 컴퓨터과학을 복수전공중입니다.</strong></p>
-    <p>아래는 제 인스타그램과 깃허브 링크입니다.
+    <p>아래는 제 인스타그램과 깃허브 링크입니다.</p>
         <ol>
             <li><a href="https://www.instagram.com/adorable_sb/">Instagram</a></li>
             <li><a href="https://github.com/subong0508">Github</a></li>
         </ol>
-    </p>
-    <p>아래는 제 사진과 강아지 사진입니다.<br>
+    <p>아래는 제 사진과 강아지 사진입니다.</p><br>
         <ul>
             <li><br>
-                <img src="me.jpg" alt="내 사진" width="200px" height="250px">
+                <img src="me.jpg" alt="내 사진" width="200">
             </li>
             <li><br>
-                <img src="puppy.jpeg" alt="강아지 사진" width="200px" height="250px"></li>
+                <img src="puppy.jpeg" alt="강아지 사진" height="250"></li>
         </ul>
-    </p>
-    <p>
-        다음은 제가 다뤄본 프로그래밍 언어와 숙련도입니다.
-        <table border="1" width="300px" height="150px">
+    <p>다음은 제가 다뤄본 프로그래밍 언어와 숙련도입니다.</p><br>
+        <table>
             <caption><strong>Programming Skills</strong></caption>
             <thead>
                 <tr>
@@ -31,10 +38,6 @@
                     <th>Level</th>
                 </tr>
             </thead>
-            <tfoot>
-                <tr>
-                    <th colspan="2">Average: 3.5</th>
-                </tr>
             <tbody>
                 <tr>
                     <td>Python</td>
@@ -50,13 +53,17 @@
                 </tr>
                 <tr>
                     <td rowspan="2">C/C++</td>
-                    <td>&#11088;&#11088;&#11088;</td>
-                </tr>
-                <tr>
                     <td>&#11088;&#11088;</td>
                 </tr>
+                <tr>
+                    <td>&#11088;&#11088;&#11088;</td>
+                </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">Average: 3.5</th>
+                </tr>
+            </tfoot>
         </table>
-    </p>
 </body>
 </html>
