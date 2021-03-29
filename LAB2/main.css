@@ -1,0 +1,54 @@
+body {
+    font-family: 'Noto Serif KR', cursive;
+    font-size: 18px;
+}
+
+#welcome {
+    border: solid 5px skyblue;
+    border-radius: 15px;
+    font-family: 'Song Myung', serif;
+    font-size: larger;
+    text-align: center;
+    color: royalblue;
+}
+
+.menu {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%; height: 1.5em;
+    padding-bottom: 10px;
+    border-bottom: solid 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.signup {
+    width: 90%; height: 450px;
+    margin-left: 10px;
+    margin-top: 1px;
+    padding: 1px;
+    border-bottom: solid 2px black;
+}
+
+.login {
+    width: 90%; height: 160px;
+    margin-left: 10px;
+    margin-top: 1px;
+    padding: 1px;
+    border-bottom: solid 2px black;
+}
+
+.click {
+    width: 120px; height: 30px;
+    margin: 10px;
+    border: white;
+    background-color: skyblue;
+    font-weight: bold;
+}
