@@ -53,7 +53,7 @@ h3 {
 #introduction .hello {
     column-count: 2;
     column-gap: 30px;
-    column-width: 50%;
+    column-width: 400px;
     column-rule-style: outset;
     column-rule-width: 2px;
     column-rule-color: black;
