@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Nanum+Pen+Script&family=Noto+Serif+KR:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="welcome"><h1>인터넷 프로그래밍 쇼핑몰에 오신걸 환영합니다!</h1></div>
+    <nav class="menu">
+        <span><strong><a href="#">로그인</a></strong></span>
+        <span><strong><a href="signup.html">회원가입</a></strong></span>
+    </nav>
+    <div id="login">
+        <form method="POST" action="#">
+            <p>
+                <label>아이디:
+                    <input name="userId" type="text" required autocomplete="on">
+                </label>
+            </p>
+            <p>
+                <label>비밀번호:
+                    <input name="userPassword" type="password" required>
+                </label>
+            </p>
+            <p>
+                <input class="click" type="submit" value="Submit">
+                <input class="click" type="reset" value="Clear">
+            </p>        
+        </form>
+    </div>
+</body>
+</html>
