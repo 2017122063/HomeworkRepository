@@ -1,7 +1,7 @@
 const ROOT_DIR = "images/";
 const width = "300px";
 // CORS 오류로 로컬 파일 fetch가 안되서 해당 파일을 깃허브에 올린 뒤 사용했습니다ㅠㅠ
-const url = 'https://raw.githubusercontent.com/subong0508/cpp-setting/master/products.json';
+const url = 'https://raw.githubusercontent.com/subong0508/cpp-setting/master/product.json';
 
 var cnt = 0;
 
