@@ -4,7 +4,7 @@ body {
 }
 
 #homepage {
-    max-width: 900px;
+    max-width: 1000px;
     text-align: left;
     margin: 0 auto;
     height: 1200px;
@@ -19,44 +19,9 @@ body {
     to { margin-left: 0px; }
 }
 
-.sales {
-    padding-bottom: 20px;
-}
-
-.items {
-    display: flex;
-    justify-content: space-between;
-}
-
-.items div {
-    display: block;
-    width: 400px;
-    height: 600px;
-    border: 2px solid darkblue;
-}
-
-.items img {
-    transition: transform 2s;
-    border: 1px solid black;
-}
-
-.items img:hover {
-    transform: scale(2, 2);
-    transform-origin: left top;
-}
-
 h3 {
     padding-bottom: 10px;
     border-bottom: 2px solid black;
-}
-
-#introduction .hello {
-    column-count: 2;
-    column-gap: 30px;
-    column-width: 400px;
-    column-rule-style: outset;
-    column-rule-width: 2px;
-    column-rule-color: black;
 }
 
 #welcome {
@@ -68,21 +33,59 @@ h3 {
     color: royalblue;
 }
 
-.menu {
+.links {
     margin-top: 10px;
     width: 100%; height: 1.5em;
     padding-bottom: 10px;
     border-bottom: solid 2px black;
 }
 
-.menu a {
+.links a {
     text-decoration: none;
     color: black;
 }
 
-.menu a:hover {
+.links a:hover {
     color: red;
 }
+
+.menus > div {
+    float: left;
+    margin-top: 10px;
+}
+
+.menus .left {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.menus .right {
+    border-left: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.menus .right div {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+}
+
+.menus .right div img {
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+}
+
+.menus .right h5 {
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.1);
+    text-align: auto;
+}
+
 
 #signup {
     width: 100%; height: 450px;

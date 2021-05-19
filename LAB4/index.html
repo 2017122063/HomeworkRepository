@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+    <title>LAB4</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Nanum+Pen+Script&family=Noto+Serif+KR:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&family=Song+Myung&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="homepage">
+        <div id="header">
+            <h1>인터넷 프로그래밍 쇼핑몰</h1>
+        </div>
+        <div>
+            <nav class="links">
+                <span><strong><a href="#">메인 페이지</a></strong></span>
+                <span><strong><a href="login.html">로그인</a></strong></span>
+                <span><strong><a href="signup.html">회원가입</a></strong></span>
+            </nav>
+        </div>
+        <div class="menus">
+            <div class="left">
+                <p>
+                    <label>출판사를 선택하세요</label><br>
+                    <select>
+                        <option value="전체" selected>전체</option>
+                        <option value="한빛미디어">한빛미디어</option>
+                        <option value="위키북스">위키북스</option>
+                        <option value="정보문화사">정보문화사</option>
+                        <option value="길벗">길벗</option>
+                        <option value="비제이퍼블릭">비제이퍼블릭</option>
+                        <option value="제이펍">제이펍</option>
+                    </select>
+                </p>
+                <p>
+                    <label>키워드를 입력하세요</label><br>
+                    <input type="text" placeholder="키워드" id="keyword">
+                    <button type="submit" id="keywordButton">제출</button>
+                </p>
+                <p>
+                    <button type="submit" id="keywordReset">원래대로</button>
+                </p>
+            </div>
+            <div class="right" id="imageBox">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
